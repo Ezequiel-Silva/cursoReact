@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/static/v1?label=Linguagem de programação&message=React&color=d3d523&style=for-the-badge&logo=React"/>
 </p>
 
-Como instalar o React?
+<p>Como instalar o React?
 
 * Para instalar o React vamos utilizar uma ferramenta chamada Create React App;
 
@@ -15,11 +15,11 @@ Como instalar o React?
 
 * Esta ferramenta também otimiza o app gerado para produção;
 
-* É possível iniciar a aplicação com npm start;
+* É possível iniciar a aplicação com npm start;</p>
 
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+<hr/>
 
-Create React App: https://create-react-app.dev/
+<p>Create React App: https://create-react-app.dev/
 
 Menos para aprender
 Você não precisa aprender e configurar muitas ferramentas de compilação. As recargas instantâneas ajudam você a se concentrar no desenvolvimento. Na hora de implantar, seus pacotes são otimizados automaticamente.
@@ -28,51 +28,51 @@ Apenas uma dependência
 Seu aplicativo precisa apenas de uma dependência de compilação. Testamos o Create React App para garantir que todas as suas partes subjacentes funcionem juntas perfeitamente - sem incompatibilidades complicadas de versões.
 
 Sem bloqueio
-Nos bastidores, usamos webpack, Babel, ESLint e outros projetos incríveis para potencializar seu aplicativo. Se você quiser uma configuração avançada, você pode "ejetar" do Create React App e editar seus arquivos de configuração diretamente.
+Nos bastidores, usamos webpack, Babel, ESLint e outros projetos incríveis para potencializar seu aplicativo. Se você quiser uma configuração avançada, você pode "ejetar" do Create React App e editar seus arquivos de configuração diretamente.</p>
 
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+<hr/>
 
-npx create-react-app meu-projeto
+<p>npx create-react-app meu-projeto</p>
 
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+<hr/>
 
-Dentro desse diretório, você pode executar vários comandos:
+<p>Dentro desse diretório, você pode executar vários comandos:
 
-   npm start
+   <b>npm start</b>: 
      Inicia o servidor de desenvolvimento.
 
-   npm run build
+   <b>npm run build</b>:
      Empacota o aplicativo em arquivos estáticos para produção.
 
-   teste npm
+   <b>teste npm</b>:
      Inicia o executor de teste.
 
-   npm executar ejetar
+   <b>npm executar ejetar</b>:
      Remove esta ferramenta e copia dependências de compilação, arquivos de configuração
      e scripts no diretório do aplicativo. Se você fizer isso, você não pode voltar!
 
 Sugerimos que você comece digitando:
 
    cd meu-projeto
-   npm start
+   npm start</p>
 
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+<hr/>
 
-Entre na pasta criada e execute o npm start
+<p>Entre na pasta criada e execute o npm start
 
 * cd meu-projeto
 
-* npm start
+* npm start</p>
 
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+<hr/>
 
-No caso para instalar as dependencias novamente use:
+<p>No caso para instalar as dependencias novamente use:
 
-* npm install
+* npm install</p>
 
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+<hr/>
 
-No caminho:
+<p>No caminho:
 
 * meu-projeto > public > index.html 
 
@@ -80,11 +80,6 @@ Estará o arquivo HTML
 
 Mais o arquivo que de fato está sendo renderizado na tela está no caminho:
 
-* meu-projeto > src > App.js 
+* meu-projeto > src > App.js</p>
 
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
+<hr/>
