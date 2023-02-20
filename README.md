@@ -28,15 +28,37 @@
 OBS: antes de executar estes comandos verifique se está dentro da pasta do projeto! (cd pasta)
 </p>
 <hr/>
+
 <p>
+<p>meu-projeto > src > App.js</p>
 <b>import './App.css';</b>
 <p style="color='#CCC">No canto superior (antes da função) será usado para importar componentes</p>
 
 <b>function App() {</b>
+<p>return (</p>
 <p style="color='#CCC">Aqui ficará o código</p>
-<b>}</b><br/>
-
+<p>)}</p>
+<br/>
 <b>export default App;</b>
 <p style="color='#CCC">No canto inferior, (depois da função) será usado para exportar o componente</p>
 </p>
+<hr/>
+
+<p>meu-projeto > src > App.js</p>
+
+>import logo from './logo.svg';
+>import './App.css';
+>
+>function App() {
+>  const name = 'Ezequiel';
+>  return (
+>    <div className="App">
+>      <h2>Alterando o JSX</h2>
+>      <p>Olá, {name}</p>
+>    </div>
+>  );
+>}
+>
+>export default App;
+
 <hr/>
