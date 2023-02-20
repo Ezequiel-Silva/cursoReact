@@ -23,8 +23,20 @@
 
 * <b>npm start</b>: Inicia (ou reinicia) o servidor do react;
 
-* <b>CTRL + C no terminal</b>: para parar o servidor do react (que inicializou com npm start);
+* <b>CTRL + C no terminal</b>: para o servidor do react (que inicializou com npm start);
 
 OBS: antes de executar estes comandos verifique se está dentro da pasta do projeto! (cd pasta)
+</p>
+<hr/>
+<p>
+<b>import './App.css';</b>
+<p style="color='#CCC">No canto superior (antes da função) será usado para importar componentes</p>
+
+<b>function App() {</b>
+<p style="color='#CCC">Aqui ficará o código</p>
+<b>}</b><br/>
+
+<b>export default App;</b>
+<p style="color='#CCC">No canto inferior, (depois da função) será usado para exportar o componente</p>
 </p>
 <hr/>
