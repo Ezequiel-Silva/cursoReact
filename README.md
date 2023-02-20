@@ -55,6 +55,7 @@ OBS: antes de executar estes comandos verifique se está dentro da pasta do proj
 >    <div className="App">
 >      <h2>Alterando o JSX</h2>
 >      <p>Olá, {name}</p>
+>      <p>Soma: {2 + 2}</p>
 >    </div>
 >  );
 >}
