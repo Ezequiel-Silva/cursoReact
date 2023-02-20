@@ -69,3 +69,20 @@ OBS: antes de executar estes comandos verifique se está dentro da pasta do proj
 >export default App;
 
 <hr/>
+<p>meu-projeto > src > App.js</p>
+<p>Atributo dinâmico</p>
+
+>import logo from './logo.svg';
+>import './App.css';
+>
+>function App() {
+>  const url = "http://via.placeholder.com/150";
+>  return (
+>    <div className="App">
+>      <img src={url} alt="Minha Imagem"/>
+>    </div>
+>  );
+>}
+>
+>export default App;
+<hr/>
