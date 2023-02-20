@@ -5,6 +5,22 @@
 <img src="https://img.shields.io/static/v1?label=Linguagem de programação&message=React&color=d3d523&style=for-the-badge&logo=React"/>
 </p>
 
+<p>O que é React?
+
+* Uma biblioteca JS para ciação de interfaces;
+
+* Utilizado para construir SPAs (Single Page Application);
+
+* Baseado em componentes;
+
+* Utiliza o JSX para renderizar HTML;
+
+* E aplica o Virtual DOM para realizar as alterações de DOM;
+
+* Podemos adcionar a um projeto ou criar um projeto com ele;</p>
+
+<hr/>
+
 <p>Como instalar o React?
 
 * Para instalar o React vamos utilizar uma ferramenta chamada Create React App;
@@ -21,13 +37,13 @@
 
 <p>Create React App: https://create-react-app.dev/
 
-Menos para aprender
+<b>Menos para aprender</b>:
 Você não precisa aprender e configurar muitas ferramentas de compilação. As recargas instantâneas ajudam você a se concentrar no desenvolvimento. Na hora de implantar, seus pacotes são otimizados automaticamente.
 
-Apenas uma dependência
+<b>Apenas uma dependência</b>
 Seu aplicativo precisa apenas de uma dependência de compilação. Testamos o Create React App para garantir que todas as suas partes subjacentes funcionem juntas perfeitamente - sem incompatibilidades complicadas de versões.
 
-Sem bloqueio
+<b>Sem bloqueio</b>
 Nos bastidores, usamos webpack, Babel, ESLint e outros projetos incríveis para potencializar seu aplicativo. Se você quiser uma configuração avançada, você pode "ejetar" do Create React App e editar seus arquivos de configuração diretamente.</p>
 
 <hr/>
