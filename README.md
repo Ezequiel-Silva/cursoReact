@@ -97,5 +97,4 @@ Estará o arquivo HTML
 Mais o arquivo que de fato está sendo renderizado na tela está no caminho:
 
 * meu-projeto > src > App.js</p>
-
 <hr/>
