@@ -85,6 +85,7 @@ OBS: antes de executar estes comandos verifique se está dentro da pasta do proj
 >}
 >
 >export default App;
+
 <hr/>
 <p>Os elementos JSX adjacentes devem ser agrupados em uma tag delimitadora. Ex: <>...</></p>
 <p>Para adicionar CSS no JSX não é class (palavra reservada do react) e sim clasddName</p>
