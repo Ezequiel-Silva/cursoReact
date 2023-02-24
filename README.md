@@ -55,3 +55,20 @@
 
 > <HelloWorld/>
 <hr/>
+<p>Componente pode ser reutilizado!</p>
+<p>Podemos criar um componente dentro de outro componente</p>
+
+>import Frase from "./Frase";
+>
+>function HelloWorld(){
+>    return (
+>        <div>
+>            <h1>Meu primeiro componente</h1>
+>            <Frase/>
+>        </div>
+>    );
+>}
+>export default HelloWorld;
+
+<p>Foi criado um componente Frase que foi utilizado pelo componente HelloWorld, que por sua vez foi renderizado pelo App.js </p>
+<hr/>
