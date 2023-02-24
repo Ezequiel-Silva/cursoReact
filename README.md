@@ -44,4 +44,14 @@
 >export default HelloWorld;
 
 <hr/>
+<p>Com o componente criado, temos que importa-lo</p>
+<p>No arquivo App.js é feito o import</p>
 
+* definimos o nome e a origem do componente
+
+> import HelloWorld from './components/HelloWorld';
+
+* depois para renderizar na tela, usamos como uma tag em HTML:
+
+> <HelloWorld/>
+<hr/>
