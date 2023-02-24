@@ -63,6 +63,7 @@
 >function HelloWorld(){
 >    return (
 >        <div>
+>            <Frase/>
 >            <h1>Meu primeiro componente</h1>
 >            <Frase/>
 >        </div>
@@ -71,4 +72,5 @@
 >export default HelloWorld;
 
 <p>Foi criado um componente Frase que foi utilizado pelo componente HelloWorld, que por sua vez foi renderizado pelo App.js </p>
+<p>OBS: note que o conteúdo do componente Frase foi utilizado duas vezes</p>
 <hr/>
