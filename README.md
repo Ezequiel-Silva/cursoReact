@@ -19,3 +19,15 @@
 
 <hr/>
 
+<p>Na pasta src crie a pasta components, e nela estará contida todos os arquivos de componentes (HelloWorld.js)</p>
+<p>O nome HelloWorld é uma convenção (PascalCase) muito utilizado </p>
+
+<hr/>
+
+<p>Função do componente é o mesmo nome do arquivo</p>
+<p>NO caso o componente se chama HelloWorld.js logo...</p>
+
+> function HelloWorld(){}
+
+<p>No final use <b>export default HelloWorld;</b> para dar a possibilidade de ser usado este componente</p>
+<hr/>
