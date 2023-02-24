@@ -31,3 +31,17 @@
 
 <p>No final use <b>export default HelloWorld;</b> para dar a possibilidade de ser usado este componente</p>
 <hr/>
+
+<p>O retorno desta função seria um JSX</p>
+
+>function HelloWorld(){
+>    return (
+>        <div>
+>            <h1>Meu primeiro componente</h1>
+>        </div>
+>    );
+>}
+>export default HelloWorld;
+
+<hr/>
+
