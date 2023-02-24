@@ -1,4 +1,4 @@
-<h1 align="center"> Sentença de Codigo </h1>
+<h1 align="center"> Introdução ao React </h1>
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
