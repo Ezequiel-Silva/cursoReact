@@ -17,3 +17,35 @@
 </p>
 
 <hr/>
+
+<p>
+
+* A propriedade é passada para um componente (SayMyName), e utilizada como um objeto (props.name)
+>function SayMyName(props){
+>    return (
+>        <div>
+>            <p>Fala aí {props.nome}, suave?</p>
+>        </div>
+>    )
+>}
+>export default SayMyName;
+</p>
+<hr/>
+<p>
+
+* No App.js temos a importação do componente, e passamos o argumento nome para o componente SayMyName
+>import './App.css';
+>import HelloWorld from './components/HelloWorld';
+>import SayMyName from './components/SayMyName';
+>
+>function App() {
+>  return (
+>    <div className="App">
+>      <HelloWorld/>
+>      <SayMyName nome="Matheus"/>
+>    </div>
+>  );
+>}
+>
+>export default App;
+</p>
