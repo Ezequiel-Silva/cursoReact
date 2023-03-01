@@ -65,3 +65,21 @@
 >}
 >export default Pessoa;
 </p>
+<hr/>
+<p>
+
+* Desestruturando o objeto props, que facilita na tarefa de extração de valores referentes a um determinado objeto;
+* No componente Pessoa:
+>function Pessoa({foto,nome,idade,profissao}){
+>    return (
+>        <div>
+>            <img src={foto} alt={nome}/>
+>            <h2>Nome: {nome}</h2>
+>            <p>Idade: {idade}</p>
+>            <p>Profissao: {profissao}</p>
+>        </div>
+>    )
+>}
+>export default Pessoa;
+</p>
+<hr/>
