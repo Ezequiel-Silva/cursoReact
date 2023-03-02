@@ -23,7 +23,7 @@
 * Para separar as palavras use camelCase ou underline
 > fraseContainer{}
 > frase_Container{} 
-* OBS: traco (-) não funciona!traco (-) não funciona!
+* OBS: traco (-) não funciona!, pois no react na hora de utiliza-lo ele trata como uma subtração e da erro
 </p>
 <hr/>
 <p>
@@ -32,6 +32,14 @@ Para utilizar o CSS em um componente
 * Crie o arquivo CSS (Frase.module.css)
 * No arquivo do componente (Frase.js) import o CSS
 > import styles from './Frase.module.css';
- 
+* E ao utiliza-lo, colocar como se fosse um objeto:
+>function Frase(){
+>    return(
+>        <div className={styles.fraseContainer}>
+>            <p className={styles.fraseContent}>Este é um componente com uma frase!</p>
+>        </div>
+>    )
+>}
+>export default Frase; 
 </p>
 <hr/>
