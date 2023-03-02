@@ -16,3 +16,22 @@
 </p>
 
 <hr/>
+
+<p>
+
+* O index.css seria o CSS global que afeta todos os componentes que estejam enquadrados nas regras de estilo
+* Para separar as palavras use camelCase ou underline
+> fraseContainer{}
+> frase_Container{} 
+* OBS: traco (-) não funciona!traco (-) não funciona!
+</p>
+<hr/>
+<p>
+Para utilizar o CSS em um componente
+
+* Crie o arquivo CSS (Frase.module.css)
+* No arquivo do componente (Frase.js) import o CSS
+> import styles from './Frase.module.css';
+ 
+</p>
+<hr/>
