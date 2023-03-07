@@ -7,8 +7,30 @@
 
 <p>
 
-* 
+* Os reacts fragments permite a criação de um componente sem elemento pai;
+* O propósito é descomplicar os nós do DOM
+* A sintaxe é <> e </>, não há um nome para a tag;
+* Criamos no próprio JSX;
 
 </p>
 
+<hr/>
+
+<p>
+No caso utiliza-se de um elemento vazio (fragment) como pai para entregar um unico JSX
+
+>function List(){
+>    return (
+>        <>
+>            <h1>Minha Lista</h1>
+>            <ul>
+>                <li>Item 1</li>
+>                <li>Item 2</li>
+>            </ul>
+>        </>
+>    )
+>}
+> export default List;
+
+</p>
 <hr/>
