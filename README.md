@@ -58,4 +58,8 @@ Required seria outra validação para enviar algum valor para a propriedade. Ex:
 Para colocar o tipo number:
 
 >ano_lancamento: PropType.number,
+
+Valor padrão caso não for informado valor:
+
+>
 </p>
