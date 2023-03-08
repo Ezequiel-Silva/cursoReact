@@ -54,4 +54,8 @@ Importa o PropType e define o tipo da prop marca para string:
 Required seria outra validação para enviar algum valor para a propriedade. Ex:
 
 >marca: PropType.string.isRequired,
+
+Para colocar o tipo number:
+
+>ano_lancamento: PropType.number,
 </p>
