@@ -50,4 +50,8 @@ Importa o PropType e define o tipo da prop marca para string:
 >    marca: PropType.string,
 >}
 >export default Item;
+
+Required seria outra validação para enviar algum valor para a propriedade. Ex:
+
+>marca: PropType.string.isRequired,
 </p>

@@ -7,6 +7,6 @@ function Item({marca,ano_lancamento}){
     );
 }
 Item.propType = {
-    marca: PropType.string,
+    marca: PropType.string.isRequired,
 }
 export default Item;
