@@ -34,3 +34,20 @@ Quando for passada string para props usasse aspas "", e número { }
 >}
 >export default List;
 </p>
+<hr/>
+<p>
+Importa o PropType e define o tipo da prop marca para string:
+
+>import PropType from 'prop-types';
+>function Item({marca,ano_lancamento}){
+>    return(
+>        <>
+>            <li>{marca} - {ano_lancamento}</li>
+>        </>
+>    );
+>}
+>Item.propType = {
+>    marca: PropType.string,
+>}
+>export default Item;
+</p>
