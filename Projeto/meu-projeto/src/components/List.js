@@ -4,8 +4,8 @@ function List(){
         <>
             <h1>Minha Lista</h1>
             <ul>
-                <Item marca="ferrari"/>
-                <Item marca="fiat"/>
+                <Item marca="ferrari" ano_lancamento={1985}/>
+                <Item marca="fiat" ano_lancamento={1985}/>
                 <Item marca="renault"/>
             </ul>
         </>
